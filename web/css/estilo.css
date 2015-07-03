@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Abel', sans-serif;
+    font-size:15px;
+    background: #efefef;
+}
+h3{
+    color: #1b744a;
+}
+h1,h2 {
+    margin: 0;
+}
+div {
+    display: block;
+}
+
+#cabecera{
+    height: 50px;
+    background-color: #1b744a;
+}
+
+#cover{
+    margin: 0 auto;
+    padding: 0;
+    /*max-width: 940px;*/
+    width: 940px;
+    height: 350px;
+    /*background:url("../images/cover.png") 90%;*/
+}
+
+#cover h2 {
+
+    float: right;
+    margin-right: 100px;
+    margin-top: 180px;
+}
+
+#menu-superior{
+    color: #fff;
+    width: 940px;
+    margin: 0 auto;
+}
+
+#menu-superior ul {
+    display: block;
+    list-style:none;
+    margin:0;
+    padding:0px 0 0 0;
+
+}
+#menu-superior ul li {
+    margin:0px;
+    padding:0;
+    float:left;
+}
+#menu-superior ul li a {
+    display:block;
+    width:100px;
+    padding:15px 0;
+    text-decoration:none;
+    text-align:center;
+    color:#FFFFFF;
+}
+
+#menu-superior ul li a:hover {
+      color:#99CC00;
+      background-color: #145738;
+}
+
+#logo{
+    height: 50px;
+    float: left;
+    width: 200px;
+}
+
+#logo img{
+    height: 75%;
+    padding: 5px 15px 0px 20px;
+    margin: 0;
+}
+
+#contenedor{
+    width: 940px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+#pie{
+    color: rgba(250, 251, 181, 0.90);
+    width: 900px;
+    margin: 0 auto;
+    background-color: #228e57;
+    padding: 20px;
+}
+
+
+#pins{
+    text-align: center;
+    height: 440px;
+    clear: both;
+    padding: 40px;
+}
+.caja{
+    width: 226px;
+    height: 100px;
+    /*background-color: #9feea7;*/
+    margin: 0 30px 0 0;
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+.caja:last-child{ margin: 0; }
+
+
+#maps{
+    width: 250px;
+    height: 460px;
+    background: url("../images/mapa.png");
+    margin: 0;
+    float: left;
+    margin: 20px;
+}
+
+#formulario{
+    width: 530px;
+    height: 380px;
+    background-color: #a1baaa;
+    float: right;
+    margin: 20px 20px 20px 0;
+    padding: 40px;
+}
+
+#formulario table{
+    width: 450px;
+}
+#formulario table input[type=text]{
+    width: 100%;
+    height: 20px;
+}
+
+#formulario table input[type=submit]{
+    color: #efefef;
+    background-color: #145738;
+    border: solid 1px #228e57;
+    padding: 5px 20px;
+    margin: 10px 0;
+}
+
+#formulario table tr:last-child td{
+    text-align: center;
+}
+
+#contenido{
+    height: 500px;
+    clear: both;
+    padding:0 10px;
+}
+
+
+.port-proyecto {
+    width: 302px;
+    height: 302px;
+    background: #145738;
+    display: inline-block;
+    margin: 1px;
+    position: relative;
+}
+
+.port-proyecto a{
+    width: 302px;
+    height: 302px;
+}
+
+.port-proyecto p{
+    position: absolute;
+    left: 20px;
+    top: 230px;
+    color: #efefef;
+    font-weight: bold;
+    background-color: #434648;
+    opacity: 0.7;
+    padding: 10px;
+}
+
+h2.titulo-seccion{
+    text-align: center;
+    color: #228e57;
+    padding: 15px 0;
+}
+
+#portafolio{
+    height: 700px;
+    clear: both;
+    padding:0 10px;
+}
+
+article.p-ubuntu {
+    background: url("../images/previews/ubuntu_preview.png");
+}
+
+article.p-suse {
+    background: url("../images/previews/suse_preview.png");
+}
+
+article.p-oracle {
+    background: url("../images/previews/oracle_preview.png");
+}
+
+article.p-msstore {
+    background: url("../images/previews/msstore_preview.png");
+}
+
+article.p-linux {
+    background: url("../images/previews/linux_preview.png");
+}
+
+article.p-redhat {
+    background: url("../images/previews/redhat_preview.png");
+}
+
+
+#nosotros{
+    height: 600px;
+    clear: both;
+    padding:0 100px;
+
+}
+
+#nosotros p{
+    color: #efefef;
+    background-color: #434648;
+    opacity: 0.7;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+#nosotros section{
+    height: 150px;
+}
+
+.n-dis {
+    background: url("../images/dis.png");
+}
+
+.n-dev {
+    background: url("../images/dev.jpg");
+}
+
+.n-web {
+    background: url("../images/web.jpg");
+}
+

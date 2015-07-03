@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Makinap</title>
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/camera.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.mobile.customized.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/camera.js"></script>
+    <script>
+        jQuery(function(){
+
+            jQuery('#camera_wrap_1').camera({
+                thumbnails: false
+            });
+        });
+
+    </script>
+</head>
+<body>
+
+<header id="cabecera">
+
+
+
+        <nav id="menu-superior">
+            <section id="logo">
+                <a href="index.html" ><img src="images/logo.png" /></a>
+            </section>
+            <ul>
+
+                <li><a href="nosotros.html" >Nosotros</a></li>
+                <li><a href="portafolio.html" >Portafolio</a></li>
+                <li><a href="#" >Blog</a></li>
+                <li><a href="contactanos.html" >Contactanos</a></li>
+
+            </ul>
+        </nav>
+
+
+</header>
+
+
+    <section id="cover">
+        <div class="camera_wrap camera_pistachio_skin" id="camera_wrap_1">
+            <div data-thumb="images/slides/thumbs/bridge.jpg" data-src="images/slides/01.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Desarrollo de sitios web
+                </div>
+            </div>
+            <div data-thumb="images/slides/thumbs/leaf.jpg" data-src="images/slides/02.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Sitios web para moviles y tabletas
+                </div>
+            </div>
+            <div data-thumb="images/slides/thumbs/road.jpg" data-src="images/slides/03.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Consigue un dominio propio para tu sitio web
+                </div>
+            </div>
+            <div data-thumb="images/slides/thumbs/sea.jpg" data-src="images/slides/04.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Sitios web sencillos y rapidos
+                </div>
+            </div>
+
+        </div><!-- #camera_wrap_1 -->
+    </section>
+<section id="contenedor">
+    <section id="pins">
+        <h3>Diseño y desarrollo de sitios web</h3>
+        <p>Cada sitio web es diseñado de acuerdo a las especificaciones del cliente y desarrollado en el tiempo estimado y requerido.</p>
+        <section class="caja">
+            <img src="images/pin1.png">
+            <h3>Sitios Rapidos</h3>
+            <p> Web simples y de rapido acceso</p>
+        </section>
+        <section class="caja">
+            <img src="images/pin1.png">
+            <h3>Web en Móviles</h3>
+            <p> Sitios adaptados para móviles y cualquier dispositivo.</p>
+        </section>
+        <section class="caja">
+            <img src="images/pin1.png">
+            <h3>Rediseño</h3>
+            <p> Rehacemos y modificamos tu sitio web.</p>
+        </section>
+
+    </section>
+
+</section>
+
+<footer id="pie">
+    Copyright &#169; 2015 Cesar Gutierrez Tineo. Todos los derechos reservados.
+</footer>
+</body>
+</html>
