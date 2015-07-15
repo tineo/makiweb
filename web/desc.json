@@ -1,0 +1,14 @@
+{
+    "pin_web": {
+        "image" : "pin_desc_web.png",
+        "texto" : "Para que tu sitio esté optimizado al 100% Google toma en cuenta la velocidad de respuesta de éste. Aproximadamente por el 2010 se hizo referencia a que la velocidad del sitio era un importante factor de ranking en buscadores. Y posteriormente se crearon herramientas como Page Speed Insights, herramienta que ayuda a que los webmasters vean cómo puede mejorar la rapidez del sitio."
+    },
+    "pin_mobile": {
+        "image" : "pin_desc_movil.jpg",
+        "texto" : "Los smartphones, las tablets y otros dispositivos móviles menos populares, han revolucionado el vasto mundo de internet, dado el vertiginoso crecimiento de su presencia en el mercado. Estemos en el sitio que sea, siempre veremos a alguien con uno (o hasta dos) de estos dispositivos. De ahí, precisamente, viene la importancia del desarollo movil"
+    },
+    "pin_redis": {
+        "image" : "pin_desc_redis.jpg",
+        "texto" : "Así como los peinados los sitios web también pasan de moda. Algunos elementos gráficos como menús, botones en 3d, animaciones de entrada que hace unos años eran muy populares hoy en día pueden parecer anticuados. Los usuarios perciben la imagen de su empresa en el diseño del sitio, es decir que si ven un sitio web viejo, con el mismo diseño de hace un par de años, así percibirán a su empresa. "
+    }
+}

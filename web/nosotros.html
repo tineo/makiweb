@@ -3,9 +3,41 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Makinap</title>
-    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script src="js/jquery.min.js"></script>
 
+    <script>
+        jQuery(function(){
+            jQuery(".n-dev-desc").hide();
+            jQuery(".n-web-desc").hide();
+            jQuery(".n-dis-desc").hide();
+
+            jQuery(".n-dev").toggle(function(){
+                jQuery(".n-dis")
+                        .fadeOut({easing:'linear',
+                            complete:function(){
+                                jQuery(".n-web").fadeOut({easing:'linear',
+                                complete:function(){
+                                    jQuery(".n-dev-desc").fadeIn({easing:'linear'});
+                                }
+                                });
+                            }});
+
+            },function(){
+                jQuery(".n-dev-desc")
+                        .fadeOut({easing:'linear',
+                            complete:function(){
+                                jQuery(".n-web").fadeIn({easing:'linear',
+                                    complete:function(){
+                                        jQuery(".n-dis").fadeIn({easing:'linear'});
+                                    }
+                                });
+                            }});
+            });
+        });
+
+    </script>
 </head>
 <body>
 
@@ -19,7 +51,7 @@
 
             <li><a href="nosotros.html" >Nosotros</a></li>
             <li><a href="portafolio.html" >Portafolio</a></li>
-            <li><a href="#" >Blog</a></li>
+            <li><a href="blog.html" >Blog</a></li>
             <li><a href="contactanos.html" >Contactanos</a></li>
 
         </ul>
@@ -33,16 +65,27 @@
         <h2 class="titulo-seccion">Nosotros</h2>
 
         <section  class="n-dev">
-            <p>Desarrollador Web</p>
+            <p class="titulo">Desarrollador Web</p>
+            <p class="n-desc desc-claro">Cesar Gutierrez Tineo</p>
         </section>
+
+        <section class="n-detail n-dev-desc">fwejfbvwejhfvbwejhbfjewh</section>
+        
+        
 
         <section class="n-web">
-            <p>Diseñador Web</p>
+            <p class="titulo">Diseñador Web</p>
+            <p  class="n-desc desc-oscuro">Julio Cahua</p>
         </section>
 
+        <section class="n-detail n-web-desc">fwejfbvwejhfvbwejhbfjewh</section>
+
         <section class="n-dis">
-            <p>Diseñador Grafico</p>
+            <p class="titulo">Diseñador Grafico</p>
+            <p  class="n-desc desc-claro">Simon Camero</p>
         </section>
+
+        <section class="n-detail n-dis-desc">fwejfbvwejhfvbwejhbfjewh</section>
 
     </section>
 
