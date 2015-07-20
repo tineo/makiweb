@@ -143,6 +143,9 @@ div {
     float: right;
     border-radius: 15px;
 }
+.n-desc{
+	text-decoration:none;
+}
 .pin-desc p{
     width: 200px;
     float: left;
@@ -322,6 +325,16 @@ article.p-redhat {
     background-color: #eff7ef;
     height: 450px !important;
     padding: 20px;
+	
+}
+.n-detail img{
+	margin:15px 0 15px 250px;
+}
+
+.n-detail ul li {
+	padding: 5px;
+  list-style-type: square;
+  color:  #434648;
 }
 
 #blog{
